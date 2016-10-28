@@ -3,6 +3,8 @@
     "next": "^1.0.1"
   },
   "scripts": {
-    "dev": "next"
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
   }
 }
