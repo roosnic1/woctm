@@ -1,0 +1,22 @@
+{
+  "name": "woctm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roosnic1/woctm.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roosnic1/woctm/issues"
+  },
+  "homepage": "https://github.com/roosnic1/woctm#readme",
+  "dependencies": {
+    "tesseract.js": "^1.0.10"
+  }
+}
