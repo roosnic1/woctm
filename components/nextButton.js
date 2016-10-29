@@ -33,7 +33,7 @@ export default class NextButton extends React.Component {
 
 		return (
       <div className={css(style)}>
-        {this.createLinks([{url:'next',text:'next'},{url:'online',text:'online'}])}
+        {this.createLinks(this.props.links)}
       </div>
 		)
 	}

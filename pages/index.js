@@ -24,8 +24,7 @@ export default class extends React.Component {
   	      <h1>{title}</h1>
           <TextInput></TextInput>
   	      <p>Click here to learn more <Link href="/about">About Us</Link></p>
-  	      <p>Fail <Link href="/asdas">here</Link></p>
-          <NextButton linkText="Next" link="page1" url={this.props.url}></NextButton>
+          <NextButton links={[{url:'next',text:'next'},{url:'online',text:'online'}]} url={this.props.url}></NextButton>
         </Wrapper>
   	  </div>
   	);
