@@ -20,7 +20,6 @@ export default () => {
 	      <p>Click here to learn more <Link href="/about">About Us</Link></p>
 	      <p>Fail <Link href="/asdas">here</Link></p>
         <NextButton linkText="Next" link="page1"></NextButton>
-				<Ingredient text="HEllooooo" image="http://img-9gag-fun.9cache.com/photo/4666039_700b.jpg"></Ingredient>
       </Wrapper>
 	  </div>
 	);
