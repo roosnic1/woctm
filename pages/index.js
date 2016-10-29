@@ -1,7 +1,9 @@
 import React from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
+import Ingredient from '../components/ingredient';
 import TextInput from '../components/textInput';
+import AppHeader from '../components/appHeader'
 
 /* Import Components */
 import NextButton from '../components/nextButton';
@@ -21,7 +23,7 @@ export default class extends React.Component {
   	  <div>
         <Header />
         <Wrapper>
-  	      <h1>{title}</h1>
+  	      <AppHeader>{title}</AppHeader>
           <TextInput></TextInput>
   	      <p>Click here to learn more <Link href="/about">About Us</Link></p>
           <NextButton links={[{url:'next',text:'next'},{url:'online',text:'online'}]} url={this.props.url}></NextButton>
