@@ -5,8 +5,8 @@ export default class TextInput extends React.Component {
     const style = {
       width: '100%',
       border: '0px solid transparent',
-      'border-bottom': '1px solid #ccc',
-      'box-sizing': 'border-box',
+      borderBottom: '1px solid #ccc',
+      boxSizing: 'border-box',
       padding: '6px'
     };
 
