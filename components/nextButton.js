@@ -1,7 +1,18 @@
 import React from 'react'
 import Link from 'next/link'
+import css from 'next/css'
 
 export default class NextButton extends React.Component {
+
+  createLinks(links) {
+    const test = {
+      flexGrow: 1
+    }
+
+    return (
+      links.map((link) => <div className={css(test)}>{link.text}</div>)
+    )
+  };
 
 	render () {
     const style = {
@@ -10,14 +21,16 @@ export default class NextButton extends React.Component {
       height: '30px',
       background: 'grey',
       width: '100%',
-      'text-align': 'center',
-      'line-height': '30px',
+      textAlign: 'center',
+      lineHeight: '30px',
+      color: 'black',
+      display: 'flex'
     };
 
 		return (
-			<Link href={this.props.link} >
-				<div style={style}>{this.props.linkText}</div>
-			</Link>
+      <div className={css(style)}>
+        {this.createLinks([{url:'next',text:'next'},{url:'online',text:'online'}])}
+      </div>
 		)
 	}
 }
