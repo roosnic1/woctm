@@ -5,6 +5,7 @@ import Link from 'next/link';
 /* Import Components */
 import NextButton from '../components/nextButton';
 import Wrapper from '../components/wrapper';
+import Header from '../components/header';
 
 
 
@@ -13,6 +14,7 @@ export default () => {
 
 	return (
 	  <div>
+      <Header />
       <Wrapper>
 	      <h1>{title}</h1>
 	      <p>Click here to learn more <Link href="/about">About Us</Link></p>
