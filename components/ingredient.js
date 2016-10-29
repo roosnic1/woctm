@@ -21,9 +21,11 @@ export default class Ingredient extends React.Component {
         box: {
           backgroundColor: this.state.active ? 'red' : 'blue',
           display: 'flex',
+          height: 50,
         },
         image: {
-          
+          height: 50,
+          width: 50,
         },
         text: {
 
